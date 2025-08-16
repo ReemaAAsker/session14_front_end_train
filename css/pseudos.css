@@ -1,0 +1,157 @@
+/* div:empty {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+} */
+
+/* 
+div {
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    ;
+    /* background-image: linear-gradient(to right, brown, tomato, transparent); */
+/* border: solid 2px red;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px; */
+/* }  */
+
+/* 
+div:hover {
+    background-color: green;
+    background-image: url(/images/back.jpg);
+    border: dotted 2px blue;
+    border-radius: 10px;
+} */
+
+button:hover {
+    background-color: tomato;
+    color: wheat;
+    /* padding: 10px; */
+    border-radius: 2px;
+    border: solid 1px red;
+}
+
+/* div:active {
+    background-color: chartreuse;
+} */
+* {
+    margin: 0;
+}
+
+main {
+    margin: 20px;
+}
+
+button:active {
+    padding: 20px;
+}
+
+nav {
+    background-color: #000000db;
+    padding: 40px 0px;
+    margin: auto;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: wheat;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    padding-left: 20px;
+
+}
+
+nav a:hover {
+    border: dotted 1px tomato;
+    border-radius: 6px;
+    padding: 5px;
+
+}
+
+nav a:visited {
+    color: purple;
+}
+
+nav a:link {
+    color: wheat;
+}
+
+form {
+    max-width: 500px;
+
+    margin: 0 auto;
+
+}
+
+form div {
+    margin-bottom: 15px;
+
+}
+
+form label {
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+
+
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #dcdde1;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+form input:focus {
+    border-color: #0097e6;
+    background-color: #f0faff;
+    outline: 2px solid #0097e6;
+}
+
+form input:disabled {
+    background-color: #dcdde1;
+}
+
+form input:required {
+    border-left: 5px solid #e84118;
+}
+
+form input:invalid {
+    border-color: #e84118;
+    background-color: #ffe6e6;
+}
+
+form input:valid {
+    border-color: #44bd32;
+    background-color: #eafbe7;
+}
+
+footer {
+    color: wheat;
+    width: 100%;
+    position: fixed;
+    padding: 2% 20%;
+    font-size: 10px;
+    bottom: 0px;
+    background-color: #000000db;
+}
+
+footer a {
+    color: cadetblue;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

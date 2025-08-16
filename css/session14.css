@@ -1,0 +1,58 @@
+  /* th {
+      height: 30px;
+  }
+
+  td {
+      text-align: center;
+      border: solid 2px red;
+      padding: 15px;
+      vertical-align: top;
+
+  }
+
+  table {
+      background-image: url(/images/back.jpg);
+      width: 100%;
+      height: 500px;
+      /* table size */
+  /* border-spacing: 0px; */
+
+  /* }  */
+  * {
+      margin: 0px;
+  }
+
+  div {
+      background-color: red;
+      /* height: 200px; */
+  }
+
+  h2 {
+      background-color: blue;
+      width: calc(100% - 50px);
+  }
+
+  /*
+   Css Units [ absolute Units , Relative Units ]
+   /absolute Units:px
+   /relative Units: rem , em , % , vm , vh
+
+   rem >> root 
+
+   root >> default >>>font size >> 16 px
+   1 rem = 16px
+   2 rem  = 32px
+
+
+   em >> relative to parent 
+
+   % >> relative to parent
+
+   vw >> viewport width (avialable width for screen) 
+
+   vh >> viewport height(avialable heitgh for screen) 
+
+
+
+   clac()
+  */
